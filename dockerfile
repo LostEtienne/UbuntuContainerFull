@@ -24,8 +24,6 @@ RUN echo "kasm-user ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
 USER 1000
 
-# Arbeitsverzeichnis setzen
 WORKDIR /home/kasm-user
 
-# Befehl zum Starten des Desktops
 CMD ["startx"]
